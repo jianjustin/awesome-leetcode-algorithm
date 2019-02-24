@@ -1,4 +1,6 @@
 # awesome-leetcode-algorithm
+![travis-CI-master](https://travis-ci.com/jianjustin/awesome-leetcode-algorithm.svg?branch=master)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 这个项目主要用于维护leetcode等一系列题库网站的解题代码，希望能够通过这种方式能够促进coding的持续性以及编码规范的认识
 
