@@ -1,4 +1,4 @@
-package org.awesome.eetcode.algorithm.array;
+package org.awesome.leetcode.algorithm.array;
 
 import org.awesome.leetcode.algorithm.array.ContainerWithMostWaterSolution;
 import org.junit.Test;
