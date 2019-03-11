@@ -13,8 +13,8 @@ public class MaximumLengthofRepeatedSubarrayTest {
 
   @Test
   public void findLength() throws IOException {
-      int[] a =new int[]{0,1,};
-      int[] b =new int[]{1,0,};
+      int[] a =new int[]{1,2,3,2,1};
+      int[] b =new int[]{3,2,1,4,7};
 
       int ret = new MaximumLengthofRepeatedSubarray().findLength(a, b);
 
@@ -48,7 +48,7 @@ public class MaximumLengthofRepeatedSubarrayTest {
   }
 
   public static void main(String[] args) throws IOException {
-    BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+/*    BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     String line;
     while ((line = in.readLine()) != null) {
       int[] A = MainClass.stringToIntegerArray(line);
@@ -60,6 +60,14 @@ public class MaximumLengthofRepeatedSubarrayTest {
       String out = String.valueOf(ret);
 
       System.out.print(out);
-    }
+    }*/
+      int[] a =new int[]{1,2,3,2,1};
+      int[] b =new int[]{3,2,1,4,7};
+
+      int ret = new MaximumLengthofRepeatedSubarray().findLength(a, b);
+
+      String out = String.valueOf(ret);
+
+      System.out.print(out);
   }
 }

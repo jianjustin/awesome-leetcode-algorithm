@@ -17,29 +17,47 @@ public class MaximumLengthofRepeatedSubarray {
         int length = A.length;
         length = length +1;
         int[][] dp = new int[length][length];
-        for (int i = 0; i <= A.length - 1; i++) {
-            for (int j = 0; j <= B.length - 1; j++) {
-                if (1 == function(A,B,i - 1, j - 1)) {
-                    dp[i + 1][j + 1] = function(A, B,i,j) + dp[i][j];
+        for (int i = 0; i <= A.length-1 ; i++) {
+            for (int j = 0; j <= B.length-1; j++) {
+                //上一对元素也相等的情况下才进行累加
+                int tempResult=function(A, B,i,j);
+/*                System.out.println("i,j"+i+"  "+j);
+                System.out.println("tempResult");*/
+                if ( dp[i][j]>0) {
+                    dp[i + 1][j + 1] =tempResult+ dp[i][j];
+                    System.out.println();
                 } else {
-                    dp[i + 1][j + 1] = function(A, B,i,j);
+                    dp[i + 1][j + 1]=tempResult;
+                    System.out.println();
                 }
+                //System.out.println("dp:i,j "+i+","+j+"="+dp[i=1][j+1]);
                 max =Math.max(max,dp[i+1][j+1]);
+
             }
         }
+        for (int j = 1; j <= dp.length - 1;j++){
+            for (int k = 1; k <= dp[0].length - 1; k++) {
+                System.out.print(dp[j][k]+" ");
+            }
+            System.out.println("\n");
+        };
 
 
         return max;
     }
 
-
-    private int   function(int a,int b){
-        return (a == b ? Integer.valueOf(1) : Integer.valueOf(0));
-    }
+    /**
+     *  判断x,y 坐标对应元素是否相等
+     * @param a 数组A
+     * @param b 数组B
+     * @param x 坐标X
+     * @param y 坐标Y
+     * @return 相等1，不相等0
+     */
     private int   function(int[] a,int[] b,int x,int y){
         if (x <= 0 || y <= 0) {
             return 0;
         }
-        return (a == b ? Integer.valueOf(1) : Integer.valueOf(0));
+        return (a[x] == b[y] ? 1 : 0);
     }
 }
