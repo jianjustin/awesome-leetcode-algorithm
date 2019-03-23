@@ -43,9 +43,9 @@ public class Solution {
             }
         }
         System.out.println("the mast length is"+max+1);
-        List result = resultMap.get(max);
-        for (String str:result) {
-            System.out.println(str);
+        List<String> result = resultMap.get(max);
+        for (String str1:result) {
+            System.out.println(str1);
         }
     }
 
