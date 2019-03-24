@@ -15,40 +15,34 @@ package org.awesome.leetcode.algorithm.dp;
  *  内存消耗:55.38MB
  */
 public class MaximumLengthofRepeatedSubarray {
+	
     public int findLength(int[] A, int[] B) {
-        int max =0;
-        int length = A.length;
-        length = length +1;
+        int max =0,length = A.length + 1;
         int[][] dp = new int[length][length];
         for (int i = 0; i <= A.length-1 ; i++) {
             for (int j = 0; j <= B.length-1; j++) {
-                //上一对元素也相等的情况下才进行累加
-                int tempResult=function(A, B,i,j);
-                if ( dp[i][j]>0 && tempResult>0) {
-                    dp[i + 1][j + 1] =tempResult+ dp[i][j];
-                } else {
-                    dp[i + 1][j + 1]=tempResult;
-                }
+                dp[i + 1][j + 1] = A[i] == B[j] ? dp[i][j]+1 : 0;
                 max =Math.max(max,dp[i+1][j+1]);
-
             }
         }
         return max;
     }
-
+    
     /**
-     *  判断x,y 坐标对应元素是否相等
-     * @param a 数组A
-     * @param b 数组B
-     * @param x 坐标X
-     * @param y 坐标Y
-     * @return 相等1，不相等0
+     * 添加方法二：减少dp的存储量，清空无效存储
+     * 执行时间：36 ms
+     * 内存消耗：39.1 MB
      */
-    private int   function(int[] a,int[] b,int x,int y){
-        if (x < 0 || y < 0) {
-            return 0;
+    public int findLengthfn2(int[] A, int[] B) {
+        int max =0,length = A.length + 1;
+        int[] dp = new int[length];
+        for (int i = 0; i < A.length ; i++) {
+            for (int j = B.length-1; j >= 0; j--) {
+                dp[j + 1] = A[i] == B[j] ? dp[j]+1 : 0;
+                max = max > dp[j+1]?max:dp[j+1];
+            }
         }
-        return (a[x] == b[y] ? 1 : 0);
+        return max;
     }
 
 }
