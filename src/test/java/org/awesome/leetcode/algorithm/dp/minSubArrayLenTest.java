@@ -12,7 +12,8 @@ public class minSubArrayLenTest {
     public void minSubArrayLen() {
         int s =5;
         int[] nums =new int[]{2,1,3};
-        int ret = new minSubArrayLen().minSubArrayLen(s, nums);
+        int ret = new minSubArrayLen().minSubArrayLenFunction(s, nums);
+        System.out.println("ret = " + ret);
     }
 }
 class minSubArrayLenMainClass {
@@ -40,7 +41,7 @@ class minSubArrayLenMainClass {
             line = in.readLine();
             int[] nums = stringToIntegerArray(line);
 
-            int ret = new minSubArrayLen().minSubArrayLen(s, nums);
+            int ret = new minSubArrayLen().minSubArrayLenFunction(s, nums);
 
             String out = String.valueOf(ret);
 

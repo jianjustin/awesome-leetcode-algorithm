@@ -13,7 +13,6 @@ public class Solution {
         int dp[][] = new int[temp.length][temp.length];
         init(temp, dp);
         int max = 0;
-        int count =0;
         Map<Integer, List<String>> resultMap = new HashMap<Integer, List<String>>();
         for (int i = 2; i <= length - 1; i++) {
             for (int j = 0; j + i <= length - 1; j++) {
@@ -21,11 +20,9 @@ public class Solution {
                 if (dp[j][j+i-1]==0&& isDiff(j+1,j+i-1,temp[j+i],temp)&&temp[j] == temp[j + i]){
                     //存储相同长度的子串
                     if (i == max) {
-                        count++;
                         putResult(max, Arrays.copyOfRange(temp, j, j + i + 1), resultMap);
                     }
                     if (i > max) {
-                        count = 1;
                         resultMap.remove(max);
                         max = i;
                         putResult(max, Arrays.copyOfRange(temp, j, j + i + 1), resultMap);
@@ -58,11 +55,11 @@ public class Solution {
         return true;
     }
     public static void putResult(int max, char [] subArray, Map<Integer,List<String>> map) {
-        List result;
+        List<String> result;
         if (map.containsKey(max)) {
              result = map.get(max);
         } else {
-             result = new ArrayList();
+             result = new ArrayList<String>();
         }
         result.add(String.copyValueOf(subArray));
         map.put(max, result);

@@ -1,10 +1,5 @@
 package org.awesome.leetcode.algorithm.hashtable;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * NO.3 -- 无重复字符的最长子串
  *
@@ -15,7 +10,6 @@ public class LongestSubstringWithoutRepeatingCharactersSolution {
 
     public int lengthOfLongestSubstring(String s) {
         String s1 = "",smax = "";
-
         for (int i = 0; i < s.length(); i++) {
              if(s1.equals(s.substring(i,i+1)) || i == s.length()-1){
                  if(i > smax.length())smax = s.substring(0,i);
@@ -24,10 +18,7 @@ public class LongestSubstringWithoutRepeatingCharactersSolution {
              }else{
                  s1 = s.substring(i,i+1);
              }
-
         }
-
-
         return smax.length();
     }
 }

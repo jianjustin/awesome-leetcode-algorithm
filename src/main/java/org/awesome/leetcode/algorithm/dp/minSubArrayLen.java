@@ -19,7 +19,7 @@ package org.awesome.leetcode.algorithm.dp;
  * 设:
  */
 public class minSubArrayLen {
-    public int minSubArrayLen(int s, int[] nums) {
+    public int minSubArrayLenFunction(int s, int[] nums) {
         int length = nums.length;
         if(length<1) return 0;
         if(length ==1) return nums[0] >= s ? 1:0;

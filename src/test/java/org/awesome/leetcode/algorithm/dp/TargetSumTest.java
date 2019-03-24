@@ -1,13 +1,12 @@
 package org.awesome.leetcode.algorithm.dp;
 
-import org.junit.Test;
+import static org.awesome.leetcode.algorithm.dp.TargetSumMainClass.stringToIntegerArray;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static org.awesome.leetcode.algorithm.dp.TargetSumMainClass.stringToIntegerArray;
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class TargetSumTest {
     /**
