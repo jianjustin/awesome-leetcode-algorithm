@@ -21,4 +21,6 @@ public class LongestSubstringWithoutRepeatingCharactersSolution {
         }
         return smax.length();
     }
+
+
 }
