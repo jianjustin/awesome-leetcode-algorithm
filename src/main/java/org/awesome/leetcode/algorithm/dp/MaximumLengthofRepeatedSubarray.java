@@ -1,7 +1,7 @@
 package org.awesome.leetcode.algorithm.dp;
 
 /**
- * @author yiezi
+ * @author eatMelon-Masses
  * @date ate 2019-03-08
  * 最长重复数组
  * No.718

@@ -1,7 +1,7 @@
 package org.awesome.leetcode.algorithm.utils;
 
 /**
- * @author yiezi
+ * @author eatMelon-Masses
  * @date 2019-3-11
  * 数组工具类
  * 关于数组的工具类

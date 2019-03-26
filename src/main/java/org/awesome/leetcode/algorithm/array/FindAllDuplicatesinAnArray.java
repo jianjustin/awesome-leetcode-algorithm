@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author zhouye
+ * @author eatMelon-Masses
  * @date 2019-03-25
  * 442. 数组中重复的数据
  * 给定一个整数数组 a，其中1 ≤ a[i] ≤ n （n为数组长度）, 其中有些元素出现两次而其他元素出现一次。
