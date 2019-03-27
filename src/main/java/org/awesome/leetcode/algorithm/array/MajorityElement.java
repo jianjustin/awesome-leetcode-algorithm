@@ -34,7 +34,7 @@ public class MajorityElement {
         int e=0;
         //目前出现次数最多元素出现次数
         int count=0;
-        Map<Integer,Integer> countMap = new HashMap<>();
+        Map<Integer,Integer> countMap = new HashMap<Integer,Integer>();
         for(int i = 0;i<=nums.length-1;i++){
             int currentE = nums[i];
             //当前元素对应的统计次数
