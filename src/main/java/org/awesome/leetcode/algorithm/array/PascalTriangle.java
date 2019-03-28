@@ -33,6 +33,9 @@ import java.util.List;
  *       [1],
  *      [1,1],
  *     [1,0,1],
+ * result:
+ * 	状态	执行用时	内存消耗	语言
+ * 	通过	1 ms	33 MB	java
  */
 public class PascalTriangle {
     public List<List<Integer>> generate(int numRows) {
