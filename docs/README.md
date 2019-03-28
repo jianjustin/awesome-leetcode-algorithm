@@ -8,20 +8,20 @@
 
 目前列表会根据leetcode上题目的编号进行排序，后续会根据**难度**以及题目类型进行划分
 
-* [leetcode题目列表](./docs/questionlist/numberlist.md)
+* [leetcode题目列表](/questionlist/numberlist.md)
 * leetcode题目难度列表
 * leetcode题目类型列表
 
 ### 项目代码规范说明
 
-涉及项目结构说明以及项目编码规范，详见[文档](./docs/codestandard.md)
+涉及项目结构说明以及项目编码规范，详见[文档](/codestandard.md)
 
 ### 如何参与项目维护
 
 * 提交leetcode题目以及解法
 * 代码审核及测试,优化代码实现
 
-详细步骤可以参见[文档](./docs/contributor-guide.md)
+详细步骤可以参见[文档](/contributor-guide.md)
 
 ### 如何成为项目维护者
 
@@ -33,7 +33,7 @@
 
 | contributor |         github page          |
 | :---------: | :--------------------------: |
-| Jianjustin  | https://jianjustin.github.io |
+| jianjustin  | https://jianjustin.github.io |
 |   eatMelon-Masses| ----------------------|
 
 ### FAQ
