@@ -2,3 +2,12 @@ language: java
 
 jdk:
   - oraclejdk8
+
+
+notifications:
+  email:
+    - janine.jian.chen@gmail.com
+    - 11764404@qq.com
+    - 717266257@qq.com
+  on_success: never # default: change
+  on_failure: always # default: always
