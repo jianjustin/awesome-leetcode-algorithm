@@ -33,7 +33,7 @@ public class MinAddToMakeValid {
         if (charS.length < 2) {
             return charS.length;
         }
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<Character>();
         for (char e : charS) {
             if (stack.isEmpty()) {
                 stack.add(e);
