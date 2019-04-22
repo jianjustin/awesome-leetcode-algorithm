@@ -35,6 +35,11 @@ public class BrokenCalcTest {
 
     }
 
+    @Test
+    public void brokenCalc5() {
+        assertResult(1,1000000000,39);
+    }
+
     /**
      * 输入参数
      * 断言结果

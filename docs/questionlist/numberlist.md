@@ -16,5 +16,5 @@
 |	494	 |[目标和](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/TargetSum.java)|中等|eatMelon-Masses|[目标和](https://leetcode-cn.com/problems/target-sum/)|
 |	718	  |[最长重复数组](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/MaximumLengthofRepeatedSubarray.java)|中等|eatMelon-Masses|[最长重复数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|
 |921|[使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|中等|eatMelon-Masses|[使括号有效的最少添加](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/greedy/MinAddToMakeValid.java)|
-​	
+​991|[坏了的计算器]()|中等|	eatMelon-Masses|[坏了的计算器]()|
 

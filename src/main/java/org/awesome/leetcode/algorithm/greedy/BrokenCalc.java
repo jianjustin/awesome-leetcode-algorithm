@@ -3,6 +3,8 @@ package org.awesome.leetcode.algorithm.greedy;
 /**
  * @author eatMelon-Masses
  * @date 2019年4月15日
+ *
+ *No.991. 坏了的计算器
  * 在显示着数字的坏计算器上，我们可以执行以下两种操作：
  * <p>
  * 双倍（Double）：将显示屏上的数字乘 2；
@@ -23,24 +25,24 @@ package org.awesome.leetcode.algorithm.greedy;
 public class BrokenCalc {
 
     public int brokenCalc(int X, int Y) {
-        int x = X;
-        int y = Y;
-        int count = 0;
-        if (x >= y) {
-            return x - y;
-        }
-        while (2 * x < y) {
-            x = x * 2;
-            count++;
-        }
-        if (2 * x == y) {
-            return count;
-        }
-        while (2 * x > y) {
-            x--;
-            count++;
-        }
 
-        return ++count;
+        return function(X, Y, 0);
+    }
+
+    private int function(int x,int y,int k) {
+        int count=0;
+
+        if (x >= y) {
+            return count+x - y;
+        }
+        boolean condation = (y&1)==1;
+        count++;
+        //奇数
+        if (condation) {
+            count+=function(x, y + 1, count);
+        } else {
+            count+=function(x, y / 2, count);
+        }
+        return count;
     }
 }
