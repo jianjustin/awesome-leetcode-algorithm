@@ -16,6 +16,7 @@
 |442|[数组中重复的数据](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/FindAllDuplicatesinAnArray.java)|中等|eatMelon-Masses|[数组中重复数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)|
 |	494	 |[目标和](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/TargetSum.java)|中等|eatMelon-Masses|[目标和](https://leetcode-cn.com/problems/target-sum/)|
 |	718	  |[最长重复数组](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/MaximumLengthofRepeatedSubarray.java)|中等|eatMelon-Masses|[最长重复数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|
+|739|[每日温度](https://leetcode-cn.com/problems/daily-temperatures/submissions/)|中等|eatMelon-Masses|[每日温度]()|
 |921|[使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|中等|eatMelon-Masses|[使括号有效的最少添加](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/greedy/MinAddToMakeValid.java)|
 ​991|[坏了的计算器](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/greedy/BrokenCalc.java)|中等|	eatMelon-Masses|[坏了的计算器](https://leetcode-cn.com/problems/broken-calculator/submissions/)|
 

@@ -45,7 +45,7 @@ public class EraseOverlapIntervalsTest {
      */
     @Test
     public void eraseOverlapIntervals3() {
-        Interval[] intervals = new Interval[3];
+        Interval[] intervals = new Interval[4];
         intervals[0] = new Interval(1, 2);
         intervals[1] = new Interval(1, 2);
         intervals[2] = new Interval(1, 2);
