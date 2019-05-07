@@ -4,6 +4,8 @@
 | ---- | -------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 3    | [无重复字符的最长子串](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/LengthOfLongestSubstring.java)| 中等 |eatMelon-Masses| [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |
 | 11   | [盛最多水的容器](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/ContainerWithMostWaterSolution.java)       | 中等 |jianjustin| [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) |
+|40|[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|中等|eatMelon-Masses|[组合总和 II]()|
+|43|[字符串相乘](https://leetcode-cn.com/problems/multiply-strings/submissions/)|中等|eatMelon-Masses|[字符串相乘]()|
 |134|[加油站](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/greedy/GasStation.java)|中等|eatMelon-Masses|[加油站](https://leetcode-cn.com/problems/gas-station/)|
 |169|[求众数](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/MajorityElement.java)|简单|eatMelon-Masses|[求众数](https://leetcode-cn.com/problems/majority-element/)|
 |118|[杨辉三角](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/PascalTriangle.java)|简单|eatMelon-Masses|[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|
