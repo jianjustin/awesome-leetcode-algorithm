@@ -11,6 +11,7 @@
 |118|[杨辉三角](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/PascalTriangle.java)|简单|eatMelon-Masses|[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|
 |119|[杨辉三角 II](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/PascalTriangleII.java)|简单|eatMelon-Masses|[杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|
 |121|[买卖股票的最佳时机](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/BestTimeToBuyAndSellStock.java)|简单|Jianjustin|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|
+|202|[快乐数]()|简单|eatMelon-Masses|[快乐数](https://leetcode-cn.com/problems/happy-number/)|
 |	209	 |[长度最小的数组](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/dp/minSubArrayLen.java)|	中等|eatMelon-Masses|[长度最小的数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)|
 |287|[寻找重复数](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/array/FindAllDuplicatesinAnArray.java)|中等|eatMelon-Masses|[寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)|
 |392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence/)|中等|eatMelon-Masses|[判断子序列](https://github.com/jianjustin/awesome-leetcode-algorithm/blob/master/src/main/java/org/awesome/leetcode/algorithm/greedy/IsSubsequence.java)|
