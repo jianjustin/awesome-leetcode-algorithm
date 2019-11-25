@@ -1,48 +1,22 @@
-# awesome-leetcode-algorithm
-![travis-CI-master](https://travis-ci.com/jianjustin/awesome-leetcode-algorithm.svg?branch=master)
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+# awesome-leetcode-algorithm ![travis-CI-master](https://travis-ci.com/jianjustin/awesome-leetcode-algorithm.svg?branch=master)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-这个项目主要用于维护leetcode等一系列题库网站的解题代码，希望能够通过这种方式能够促进coding的持续性以及编码规范的认识
+> 本仓库主要用于维护LeetCode刷题过程中的代码笔记和解题思路，欢迎大家共同维护，仓库文档[在这里](https://jianjustin.github.io/awesome-leetcode-algorithm/)
 
-### 题目列表
+## 内容说明
 
-目前列表会根据leetcode上题目的编号进行排序，后续会根据**难度**以及题目类型进行划分
+本仓库的题目主要以题目标签作为划分标准，这里可以和LeetCode做对比。
 
-* [leetcode题目列表](/questionlist/numberlist.md)
-* leetcode题目难度列表
-* leetcode题目类型列表
+## FAQ
 
-### 项目代码规范说明
+* **项目代码规范说明**
 
-涉及项目结构说明以及项目编码规范，详见[文档](/codestandard.md)
+  涉及项目结构说明以及项目编码规范，详见文档
 
-### 如何参与项目维护
+* **如何参与项目维护**(详细步骤可以参见文档)
 
-* 提交leetcode题目以及解法
-* 代码审核及测试,优化代码实现
+  * 提交leetcode题目以及解法
+  * 代码审核及测试,优化代码实现
 
-详细步骤可以参见[文档](/contributor-guide.md)
+* **如何成为项目维护者**
 
-### 如何成为项目维护者
-
-提交issues说明你的请求，以及提供您的邮箱地址供我们反馈就。   
-
-### 提交者列表
-
-
-
-| contributor |         github page          |
-| :---------: | :--------------------------: |
-| jianjustin  | https://jianjustin.github.io |
-|   eatMelon-Masses| ----------------------|
-
-### FAQ
-
-* 代码实现有语言限制吗？
-
-项目内master分支主要用于java编码实现，所以以maven作为项目骨架；后续会通过扩展分支的方式实现不同语言的实现
-
-
-
-
-
+  提交issues说明你的请求，以及提供您的邮箱地址供我们反馈。   

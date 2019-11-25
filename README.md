@@ -1,12 +1,13 @@
-# awesome-leetcode-algorithm
-![travis-CI-master](https://travis-ci.com/jianjustin/awesome-leetcode-algorithm.svg?branch=master)
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+# awesome-leetcode-algorithm ![travis-CI-master](https://travis-ci.com/jianjustin/awesome-leetcode-algorithm.svg?branch=master)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-这个项目主要用于维护leetcode等一系列题库网站的解题代码，希望能够通过这种方式能够促进coding的持续性以及编码规范的认识
+> 本仓库主要用于维护LeetCode刷题过程中的代码笔记和解题思路，欢迎大家共同维护，仓库文档[在这里](https://jianjustin.github.io/awesome-leetcode-algorithm/)
 
-具体解题思路你可以查看[中文文档](https://jianjustin.github.io/awesome-leetcode-algorithm/)
+## 内容说明
+
+本仓库的题目主要以题目标签作为划分标准，这里可以和LeetCode做对比。
 
 ## FAQ
+
 * **项目代码规范说明**
   
   涉及项目结构说明以及项目编码规范，详见文档
@@ -18,4 +19,4 @@
 
 * **如何成为项目维护者**
 
-  提交issues说明你的请求，以及提供您的邮箱地址供我们反馈就。   
+  提交issues说明你的请求，以及提供您的邮箱地址供我们反馈。   
