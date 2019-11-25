@@ -4,26 +4,17 @@
 
 这个项目主要用于维护leetcode等一系列题库网站的解题代码，希望能够通过这种方式能够促进coding的持续性以及编码规范的认识
 
-## 学习文档
------------------------
-
-**题目列表**
-
-  * [leetcode题目列表](./docs/questionlist/numberlist.md)
-  * leetcode题目难度列表
-  * leetcode题目类型列表
+具体解题思路你可以查看[中文文档](https://jianjustin.github.io/awesome-leetcode-algorithm/)
 
 ## FAQ
------------------------
 * **项目代码规范说明**
   
-  涉及项目结构说明以及项目编码规范，详见[文档](./docs/codestandard.md)
+  涉及项目结构说明以及项目编码规范，详见文档
 
-* **如何参与项目维护**
+* **如何参与项目维护**(详细步骤可以参见文档)
 
   * 提交leetcode题目以及解法
   * 代码审核及测试,优化代码实现
-  详细步骤可以参见[文档](./docs/contributor-guide.md)
 
 * **如何成为项目维护者**
 
