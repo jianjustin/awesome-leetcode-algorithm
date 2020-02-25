@@ -21,11 +21,6 @@ import java.util.List;
 public class ContainerWithMostWaterSolution {
 	
     public int maxArea(int[] height) {
-    	List<Integer> list = new ArrayList<Integer>();
-    	for (int i = 0; i < height.length; i++) {
-			list.add(height[i]);
-		}
-    	
     	int max = 0;
     	for (int i = 0; i < height.length; i++) {
     		for (int j = 0; j < height.length; j++) {
