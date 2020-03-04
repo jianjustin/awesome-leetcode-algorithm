@@ -1,4 +1,4 @@
-# awesome-leetcode-algorithm [![Actions Status](https://github.com/jianjustin/awesome-leetcode-algorithm/workflows/Java%20CI/badge.svg)][![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+# awesome-leetcode-algorithm [![Actions Status](https://github.com/jianjustin/awesome-leetcode-algorithm/workflows/Java%20CI/badge.svg)](awesome-leetcode-algorithm)
 
 > 本仓库主要用于维护LeetCode刷题过程中的代码笔记和解题思路，欢迎大家共同维护，仓库文档[在这里](https://jianjustin.github.io/awesome-leetcode-algorithm/)
 
