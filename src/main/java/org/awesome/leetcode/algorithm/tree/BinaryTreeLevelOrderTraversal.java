@@ -11,7 +11,6 @@ import java.util.Queue;
 public class BinaryTreeLevelOrderTraversal {
 
 	public List<List<Integer>> levelOrder(TreeNode root) {
-		
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
 		if(null == root)return result;
 		List<Integer> result1 = new ArrayList<>();
