@@ -1,7 +1,10 @@
 package org.awesome.leetcode.algorithm.tree;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Stack;
 
 public class FlattenBinaryTreeToLinkedList {
 	
@@ -9,10 +12,6 @@ public class FlattenBinaryTreeToLinkedList {
 		if(null == root)return;
 		List<Integer> list = new ArrayList<>();
 		PrintBinaryTree(root,list);//先序遍历，获取值列表
-		
-		
-		for (int  val : list) 
-			System.out.println("  "+val);
 		
 		TreeNode node = root;
 		for (int i=1; i<list.size(); i++) {
@@ -26,7 +25,6 @@ public class FlattenBinaryTreeToLinkedList {
 	
 	public void PrintBinaryTree(TreeNode root, List<Integer> list) {
 		if(null == root)return;
-		
 		list.add(root.val);
 		PrintBinaryTree(root.left, list);
 		PrintBinaryTree(root.right, list);
@@ -46,5 +44,6 @@ public class FlattenBinaryTreeToLinkedList {
 			node = node.right;
 		}
 	}
+
 
 }
