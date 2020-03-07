@@ -5,6 +5,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import org.awesome.leetcode.algorithm.arrays.MajorityElement;
+
 /**
  * @author eatMelon-Masses
  * @date 2019/3/26

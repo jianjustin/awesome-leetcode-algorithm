@@ -1,5 +1,6 @@
 package org.awesome.leetcode.algorithm.array;
 
+import org.awesome.leetcode.algorithm.arrays.DailyTemperatures;
 import org.junit.Assert;
 import org.junit.Test;
 

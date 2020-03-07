@@ -11,6 +11,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 
+import org.awesome.leetcode.algorithm.arrays.FindTheDuplicateNumber;
+
 
 public class FindTheDuplicateNumberTest {
     private FindTheDuplicateNumber duplicateNumber=spy(FindTheDuplicateNumber.class);

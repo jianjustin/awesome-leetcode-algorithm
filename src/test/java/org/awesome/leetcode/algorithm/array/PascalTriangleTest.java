@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
+import org.awesome.leetcode.algorithm.arrays.PascalTriangle;
+
 public class PascalTriangleTest {
     public static String integerArrayListToString(List<Integer> nums, int length) {
         if (length == 0) {
