@@ -3,6 +3,11 @@ package org.awesome.leetcode.algorithm.arrays;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 面试题06. 从尾到头打印链表
+ * @author jian
+ *
+ */
 public class CongWeiDaoTouDaYinLianBiaoLcof {
 	public int[] reversePrint(ListNode head) {
 		List<Integer> list = new ArrayList<>();
