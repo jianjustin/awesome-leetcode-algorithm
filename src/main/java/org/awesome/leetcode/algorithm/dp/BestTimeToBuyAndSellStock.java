@@ -1,5 +1,7 @@
 package org.awesome.leetcode.algorithm.dp;
 
+import com.sun.org.apache.bcel.internal.generic.NEW;
+
 /**
  * @author jian
  * @date 2019-03-28
@@ -18,29 +20,28 @@ package org.awesome.leetcode.algorithm.dp;
 public class BestTimeToBuyAndSellStock {
 	
 	public int maxProfit(int[] prices) {
-        int resultMoney = 0;
+		int resultMoney = 0;
+		if(null == prices || prices.length == 0)return resultMoney;
+        int[] dp = new int[prices.length], dp1 = new int[prices.length];
         
-        for (int i = 0; i < prices.length; i++) {
-			for (int j = i+1; j < prices.length; j++) {
-				int money = prices[j] - prices[i];
-				if(resultMoney < money)resultMoney = money;
-			}
-		}
+        dp[0] = prices[0];
+        dp1[0] = prices[prices.length-1];
+        for (int i = 1; i < prices.length; i++) {
+        	dp[i] = Math.min(dp[i-1], prices[i]);//获取最小买入值
+        	dp1[i] = Math.max(dp1[i-1], prices[prices.length-i-1]);//获取最大卖出值
+        }
+        	
         
+        for (int i = 1; i < prices.length; i++) {
+        	int item = dp1[i-1]-dp[prices.length-i-1];
+        	if(item>resultMoney)resultMoney = item;
+        }
         return resultMoney;
     }
-    public int maxProfit2(int[] prices) {
-        int buymin=Integer.MAX_VALUE;
-        int sum=0;
-        if(prices.length<2) 
-            return 0;
-        else
-            buymin=prices[0];
-        for(int i=1;i<=prices.length-1;i++){           
-            sum=(prices[i]-buymin)>sum?(prices[i]-buymin):sum;
-            if(prices[i]<buymin) buymin=prices[i]; 
-        }
-        
-        return sum;
-    }
+	
+	public static void main(String[] args) {
+		int[] prices = {7,1,5,3,6,4};
+		System.out.println((new BestTimeToBuyAndSellStock()).maxProfit(prices));
+	}
+    
 }
