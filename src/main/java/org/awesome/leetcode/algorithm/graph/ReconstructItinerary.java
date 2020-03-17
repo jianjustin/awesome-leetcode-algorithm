@@ -46,7 +46,7 @@ public class ReconstructItinerary {
 			tickets.add(list);
 		}
 		
-		List<String> ans = (new JavadfsjieFaByPwrliang()).findItinerary(tickets);
+		List<String> ans = (new ReconstructItinerary()).findItinerary(tickets);
 		for (String string : ans) {
 			System.out.println(string+",");
 		}
