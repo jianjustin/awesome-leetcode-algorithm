@@ -3,6 +3,7 @@ package org.awesome.leetcode.algorithm.array;
 import org.awesome.leetcode.algorithm.arrays.ContainerWithMostWaterSolution;
 import org.junit.Test;
 
+
 public class ContainerWithMostWaterSolutionTest {
 	
 	@Test

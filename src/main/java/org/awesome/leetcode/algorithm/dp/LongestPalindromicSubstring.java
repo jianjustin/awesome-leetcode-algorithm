@@ -48,15 +48,13 @@ public class LongestPalindromicSubstring {
      * 创建预处理字符串
      */
     private String addBoundaries(String s, char divide) {
-        int len = s.length();
-        if (len == 0) {
-            return "";
-        }
-        if (s.indexOf(divide) != -1) {
+        if(null == s || s.length() == 0)return s;
+    	
+        if (s.indexOf(divide) != -1) 
             throw new IllegalArgumentException("参数错误，您传递的分割字符，在输入字符串中存在！");
-        }
+        
         StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < s.length(); i++) {
             stringBuilder.append(divide);
             stringBuilder.append(s.charAt(i));
         }
