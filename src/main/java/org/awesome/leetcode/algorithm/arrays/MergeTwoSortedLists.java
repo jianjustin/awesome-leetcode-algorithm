@@ -5,29 +5,28 @@ public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode result = new ListNode(0);//empty node
 
-        ListNode left = list1, right = list2;
+        ListNode left = list1, right = list2, key = result;
         while (true){
-            if(left == null && right != null){
-                result.next = new ListNode(right.val);
-                right = right.next;
+            if(left == null){
+                key.next = right;
+                break;
             }
 
-            if(right == null && left != null){
-                result.next = new ListNode(left.val);
-                left = left.next;
-            }
-
-            if(left == null && right == null){
+            if(right == null){
+                key.next = left;
                 break;
             }
 
             if(left.val > right.val){
-                result.next = new ListNode(right.val);
+                key.next = new ListNode(right.val);
                 right = right.next;
+            }else{
+                key.next = new ListNode(left.val);
+                left = left.next;
             }
 
-            result.next = new ListNode(left.val);
-            left = left.next;
+            key = key.next;
+
         }
         return result.next;
     }
