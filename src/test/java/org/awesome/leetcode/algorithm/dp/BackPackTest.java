@@ -43,6 +43,6 @@ public class BackPackTest {
 		
 		int ans = b.multipleBackPack(c, w, n, N, V);
 		System.out.println("ans = " + ans);
-		Assert.assertEquals("计算错误", 24, ans);
+		Assert.assertEquals("计算错误", 400, ans);
 	}
 }
