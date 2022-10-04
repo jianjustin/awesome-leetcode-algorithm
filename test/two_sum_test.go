@@ -1,17 +1,17 @@
-package main
+package test
 
 import (
-	"fmt"
+	"testing"
 
 	"awesome.leetcode.algorithm/leetcode"
 )
 
-func main() {
-	//输入：nums = [2,7,11,15], target = 9
-	//输出：[0,1]
+func TestTwoSum(t *testing.T) {
 	nums := []int{2, 7, 11, 15}
 	target := 9
 
 	res := leetcode.TwoSum(nums, target)
-	fmt.Println("res = ", res)
+	if res[0] != 0 || res[1] != 1 {
+		t.Error("two sum error")
+	}
 }
